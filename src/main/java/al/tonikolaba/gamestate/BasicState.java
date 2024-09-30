@@ -39,7 +39,6 @@ public abstract class BasicState {
 	public BasicState(GameStateManager gsm) {
 		this.gsm = gsm;
 		try {
-
 			bg = ImageIO.read(getClass().getResourceAsStream("/Backgrounds/sfondi1.gif")).getSubimage(0, 0,
 					GamePanel.WIDTH, GamePanel.HEIGHT);
 

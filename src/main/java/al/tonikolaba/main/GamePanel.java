@@ -23,10 +23,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 	public static final int HEIGHT = 480;
 	public static final int SCALE = 1;
 	// public final int SCALE = (int) screenSize.getHeight() / HEIGHT;
-	/**
-	 *
-	 */
-	private static final long serialVersionUID = 1275876853084636658L;
+
 	// game thread
 	private transient Thread thread;
 	private boolean running;
@@ -81,7 +78,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 		long elapsed;
 		long wait;
 
-		// game loop
+		// Game loop
 		while (running) {
 
 			start = System.nanoTime();
